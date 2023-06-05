@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermostat</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section>
+      <p>
+        <h3>
+        Power saving mode is: <span id="power-saving-status">on</span></h3></p>
+        <p>
+        <button id="powersaving-on" class="button">PSM on</button>
+        <button id="powersaving-off" class="button">PSM off</button>
+    </p>
+    <div class="boxed">
+        <h1 id="current-temp">Current temperature:</h1>
+        <h1 id="temperature" class="temperature"></h1>
+        </div>
+          <h3>
+          Your current energy usage is: <span class="energy-usage">medium</span>
+</h1>
+
+      
+        <p>
+          <button id="temperature-up" class="button">+</button>
+          <button id="temperature-down" class="button">-</button>
+          <button id="temperature-reset" class="button">reset</button>
+          </p> 
+
+      </section>
+      <script src="src/interface.js"></script>
+      <script src="src/Thermostat.js"></script>
+</body>
+</html>
