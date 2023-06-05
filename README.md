@@ -10,3 +10,6 @@ This is a simple thermostat program that allows a user to increase or decrease t
 # Tech Stack
 
 I used Node.js, HTML, CSS, and Jest for testing. 
+
+
+![image](https://github.com/natalietheo/thermostat/assets/108094163/39e5654d-0520-4ec2-82c6-5d12cff6154c)
