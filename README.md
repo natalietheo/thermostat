@@ -9,7 +9,10 @@ This is a simple thermostat program that allows a user to increase or decrease t
 
 # Tech Stack
 
-I used Node.js, HTML, CSS, and Jest for testing. 
+I used Node.js, HTML, CSS, DOM and Jest for testing. 
 
+# What I learnt 
+
+I found that during the Makers Bootcamp, I didn't really get a chance to use and understand the DOM, so I purposefully chose to build something simple that would allow me to learn more about it and how to use it. It also helped to consolidate my knowledge of Node.js. 
 
 ![image](https://github.com/natalietheo/thermostat/assets/108094163/39e5654d-0520-4ec2-82c6-5d12cff6154c)
